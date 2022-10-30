@@ -11,7 +11,7 @@
   <link href="style.css" rel="stylesheet">
   <title>Portfolio</title>
 </head>
-<body class="bg-gradient-to-r from-indigo-500 to-pink-300 text-blue-100">
+<body class="bg-gradient-to-r from-indigo-800 to-blue-800 text-white">
   <!--top-->
   <div class="mx-auto max-w-screen-lg py-6">
   <div class="flex flex-col gap-y-3 sm:flex-row sm:items-center sm:justify-between">
@@ -22,7 +22,7 @@
     <nav>
       <ul class="flex gap-x-3 font-medium text-blue-100">
         <li class="hover:text-white">
-          <a href="#">Services</a>
+          <a href="#">About Me</a>
         </li>
         <li class="hover:text-white">
           <a href="#">Portfolio</a>
@@ -36,8 +36,8 @@
     <div class="flex flex-col items-center md:flex-row md:justify-between md:gap-x-24">
       <div>
         <h1 class="text-3xl font-bold">Hi! I'm <span class="">Miyuki</span></h1>
-        <p class="my-6 text-xl leading-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do incididunt ut labore et dolore magna aliqua.
-          You can check my services <a class="text-cyan-400 hover:underline" href="/demo/astro-boilerplate">here.</a>
+        <p class="my-6 text-xl leading-10">I'm an aspiring Front End Developer, using HTML, CSS, Tailwind, Bootstrap, and Javascript
+          You can check my services <a class="text-green-400 hover:underline" href="">here.</a>
           <!--soc meds-->
         <!--<div class="mt-3 flex gap-1">
           <a href="">
@@ -59,16 +59,51 @@
   </div>
   <!--PORTFOLOP-->
   <div class="mx-auto max-w-screen-lg px-3 py-6 select-none">
-    <div class="mb-6 text-2xl font-bold"><a id="portfolioStart">Portfolio</a></div>
+    <div class="my-6">
+      <div class="text-2xl font-bold">
+        <a id="portfolioStart">Portfolio</a>
+      </div>
+    <div class="m-4 p-2 flex flex-row gap-3">
+      <div class="text-white">
+        <button type="button" class="bg-gradient-to-r bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 
+        hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 shadow shadow-blue-50
+        font-medium text-white text-md text-center rounded-lg p-3">Tailwind</button>
+      </div>
+      
+      <div class="text-white">
+        <button type="button" class="bg-gradient-to-r bg-gradient-to-r from-green-400 via-green-500 to-green-600 
+        hover:bg-gradient-to-br focus:ring-4 focus:ring-green-300 shadow shadow-green-50
+        font-medium text-white text-md text-center rounded-lg p-3">Wix</button>
+      </div>
+
+      <div class="text-white">
+        <button type="button" class="bg-gradient-to-r bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 
+        hover:bg-gradient-to-br focus:ring-4 focus:ring-pink-300 shadow shadow-pink-50
+        font-medium text-white text-md text-center rounded-lg p-3">UI UX Design</button>
+      </div>
+
+      <div class="text-white">
+        <button type="button" class="bg-gradient-to-r bg-gradient-to-r from-red-400 via-red-500 to-red-600 
+        hover:bg-gradient-to-br focus:ring-4 focus:ring-red-300 shadow shadow-red-50
+        font-medium text-white text-md text-center rounded-lg p-3">Wordpress</button>
+      </div> 
+
+    </div>  
+    </div>
+    
+    <!--separator-->
+    <div class="border-t border-white p-3"></div>  
+
     <div class="flex flex-col gap-6">
+      <div class="text-xl font-bold">Tailwind</div>
       <!--PROJECT 1-->
-      <div class="flex flex-col items-center gap-x-8 rounded-md bg-gray-50 p-3 hover:bg-gray-200 md:flex-row">
+      <div class="flex flex-row items-center gap-x-8 rounded-md bg-gray-50 p-3 hover:bg-gray-200">
         <a href="">
-        <div class="">
+        <div>
           <img class="h-36 w-96" src="images/trialpic.jpg" alt="Project Web Design" loading="lazy">
         </div>
         <div>
-          <div class="flex flex-col items-center gap-y-2 md:flex-row">
+          <div class="flex flex-col items-center gap-y-2 xl:flex-row">
             <a class="hover:text-green-400" href="">
             <div class="text-xl text-purple-900 font-semibold">Project 1</div>
             </a>
@@ -80,15 +115,14 @@
         </a>
       </div>
       <!--END OF PROJECT 1-->
-
       <!--PROJECT 2-->
-      <div class="flex flex-col items-center gap-x-8 rounded-md bg-gray-50 p-3 hover:bg-gray-200 md:flex-row">
+      <div class="flex flex-row items-center gap-x-8 rounded-md bg-gray-50 p-3 hover:bg-gray-200">
         <a href="">
-        <div class="">
+        <div>
           <img class="h-36 w-96" src="images/trialpic.jpg" alt="Project Web Design" loading="lazy">
         </div>
         <div>
-          <div class="flex flex-col items-center gap-y-2 md:flex-row">
+          <div class="flex flex-col items-center gap-y-2 xl:flex-row">
             <a class="hover:text-green-400" href="">
             <div class="text-xl text-purple-900 font-semibold">Project 1</div>
             </a>
@@ -99,10 +133,149 @@
         </div>
         </a>
       </div>
-      <!--END OF PROJECT 2-->      
-
+      <!--END OF PROJECT 2-->
     </div>
+    <!--end of tailwind portfolio-->
+
+    <!--separator-->
+    <div class="border-t border-white py-3 mt-14 mb-3"></div>  
+
+    <div class="flex flex-col gap-6">
+      <div class="text-xl font-bold">Wix</div>
+      <!--PROJECT 1-->
+      <div class="flex flex-row items-center gap-x-8 rounded-md bg-gray-50 p-3 hover:bg-gray-200">
+        <a href="">
+        <div>
+          <img class="h-36 w-96" src="images/trialpic.jpg" alt="Project Web Design" loading="lazy">
+        </div>
+        <div>
+          <div class="flex flex-col items-center gap-y-2 xl:flex-row">
+            <a class="hover:text-green-400" href="">
+            <div class="text-xl text-purple-900 font-semibold">Project 1</div>
+            </a>
+          </div>
+              <p class="mt-3 text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          bibendum. Nunc non posuere consectetur, justo erat semper enim, non
+          hendrerit dui odio id enim.</p>
+        </div>
+        </a>
+      </div>
+      <!--END OF PROJECT 1-->
+      <!--PROJECT 2-->
+      <div class="flex flex-row items-center gap-x-8 rounded-md bg-gray-50 p-3 hover:bg-gray-200">
+        <a href="">
+        <div>
+          <img class="h-36 w-96" src="images/trialpic.jpg" alt="Project Web Design" loading="lazy">
+        </div>
+        <div>
+          <div class="flex flex-col items-center gap-y-2 xl:flex-row">
+            <a class="hover:text-green-400" href="">
+            <div class="text-xl text-purple-900 font-semibold">Project 1</div>
+            </a>
+          </div>
+              <p class="mt-3 text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          bibendum. Nunc non posuere consectetur, justo erat semper enim, non
+          hendrerit dui odio id enim.</p>
+        </div>
+        </a>
+      </div>
+      <!--END OF PROJECT 2-->
+    </div>
+    <!--end of wix portfolio-->    
+
+    <!--separator-->
+    <div class="border-t border-white py-3 mt-14 mb-3"></div>  
+
+    <div class="flex flex-col gap-6">
+      <div class="text-xl font-bold">UI UX Design</div>
+      <!--PROJECT 1-->
+      <div class="flex flex-row items-center gap-x-8 rounded-md bg-gray-50 p-3 hover:bg-gray-200">
+        <a href="">
+        <div>
+          <img class="h-36 w-96" src="images/trialpic.jpg" alt="Project Web Design" loading="lazy">
+        </div>
+        <div>
+          <div class="flex flex-col items-center gap-y-2 xl:flex-row">
+            <a class="hover:text-green-400" href="">
+            <div class="text-xl text-purple-900 font-semibold">Project 1</div>
+            </a>
+          </div>
+              <p class="mt-3 text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          bibendum. Nunc non posuere consectetur, justo erat semper enim, non
+          hendrerit dui odio id enim.</p>
+        </div>
+        </a>
+      </div>
+      <!--END OF PROJECT 1-->
+      <!--PROJECT 2-->
+      <div class="flex flex-row items-center gap-x-8 rounded-md bg-gray-50 p-3 hover:bg-gray-200">
+        <a href="">
+        <div>
+          <img class="h-36 w-96" src="images/trialpic.jpg" alt="Project Web Design" loading="lazy">
+        </div>
+        <div>
+          <div class="flex flex-col items-center gap-y-2 xl:flex-row">
+            <a class="hover:text-green-400" href="">
+            <div class="text-xl text-purple-900 font-semibold">Project 1</div>
+            </a>
+          </div>
+              <p class="mt-3 text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          bibendum. Nunc non posuere consectetur, justo erat semper enim, non
+          hendrerit dui odio id enim.</p>
+        </div>
+        </a>
+      </div>
+      <!--END OF PROJECT 2-->
+    </div>
+    <!--end of UI UX portfolio-->        
+
+    <!--separator-->
+    <div class="border-t border-white py-3 mt-14 mb-3"></div>  
+
+    <div class="flex flex-col gap-6">
+      <div class="text-xl font-bold">WordPress</div>
+      <!--PROJECT 1-->
+      <div class="flex flex-row items-center gap-x-8 rounded-md bg-gray-50 p-3 hover:bg-gray-200">
+        <a href="">
+        <div>
+          <img class="h-36 w-96" src="images/trialpic.jpg" alt="Project Web Design" loading="lazy">
+        </div>
+        <div>
+          <div class="flex flex-col items-center gap-y-2 xl:flex-row">
+            <a class="hover:text-green-400" href="">
+            <div class="text-xl text-purple-900 font-semibold">Project 1</div>
+            </a>
+          </div>
+              <p class="mt-3 text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          bibendum. Nunc non posuere consectetur, justo erat semper enim, non
+          hendrerit dui odio id enim.</p>
+        </div>
+        </a>
+      </div>
+      <!--END OF PROJECT 1-->
+      <!--PROJECT 2-->
+      <div class="flex flex-row items-center gap-x-8 rounded-md bg-gray-50 p-3 hover:bg-gray-200">
+        <a href="">
+        <div>
+          <img class="h-36 w-96" src="images/trialpic.jpg" alt="Project Web Design" loading="lazy">
+        </div>
+        <div>
+          <div class="flex flex-col items-center gap-y-2 xl:flex-row">
+            <a class="hover:text-green-400" href="">
+            <div class="text-xl text-purple-900 font-semibold">Project 1</div>
+            </a>
+          </div>
+              <p class="mt-3 text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          bibendum. Nunc non posuere consectetur, justo erat semper enim, non
+          hendrerit dui odio id enim.</p>
+        </div>
+        </a>
+      </div>
+      <!--END OF PROJECT 2-->
+    </div>
+    <!--end of Wordpress portfolio-->            
   </div>
+  
 
       </div>
     </div>
